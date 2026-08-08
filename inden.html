@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ismail | Tutor Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:#172033;background:#f7f9fc;line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e7ebf2;padding:16px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800;color:#3157d5}
+nav a{margin-left:22px;text-decoration:none;color:#4b5568;font-weight:600}
+.hero{padding:90px 7%;background:linear-gradient(135deg,#eef3ff,#fff)}
+.hero h1{font-size:clamp(38px,6vw,64px);line-height:1.05;margin:12px 0}
+.hero h1 span{color:#3157d5}
+.hero p{max-width:650px;font-size:19px;color:#596579}
+.badge{display:inline-block;background:#e1e9ff;color:#3157d5;padding:7px 13px;border-radius:999px;font-weight:700}
+.btn{display:inline-block;margin-top:28px;padding:13px 21px;border-radius:10px;background:#3157d5;color:#fff;text-decoration:none;font-weight:700}
+section{padding:70px 7%;max-width:1100px;margin:auto}
+h2{font-size:34px;margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#fff;padding:25px;border:1px solid #e7ebf2;border-radius:15px;box-shadow:0 8px 25px rgba(20,30,50,.05)}
+.card h3{margin-bottom:8px;color:#3157d5}
+.about{font-size:18px;color:#596579;max-width:800px}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{background:#fff;border:1px solid #dfe5ef;border-radius:999px;padding:9px 14px;font-weight:600}
+.contact{background:#172033;color:#fff;max-width:none;text-align:center}
+.contact p{color:#cbd2df}
+footer{text-align:center;padding:22px;background:#111827;color:#aeb7c6;font-size:14px}
+@media(max-width:650px){nav{padding:14px 5%}nav div:last-child{display:none}.hero,section{padding-left:5%;padding-right:5%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Ismail</div>
+  <div>
+    <a href="#about">About</a><a href="#subjects">Subjects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <span class="badge">📚 Student Tutor</span>
+  <h1>Learn smarter.<br><span>Understand better.</span></h1>
+  <p>I’m Ismail, a dedicated student tutor focused on making difficult academic concepts simple, clear, and easier to remember.</p>
+  <a class="btn" href="#contact">Get in touch →</a>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p class="about">I enjoy helping students understand challenging topics through step-by-step explanations, practice questions, and exam-focused preparation. My goal is to create a friendly learning environment where students can ask questions freely and build real understanding.</p>
+</section>
+
+<section id="subjects">
+  <h2>Subjects I Teach</h2>
+  <div class="grid">
+    <div class="card"><h3>Mathematics</h3><p>Concepts, problem solving, practice and exam preparation.</p></div>
+    <div class="card"><h3>Physics</h3><p>Clear explanations, formulas, numerical problems and revision.</p></div>
+    <div class="card"><h3>English</h3><p>Grammar, writing, comprehension and exam preparation.</p></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Teaching Strengths</h2>
+  <div class="skills">
+    <span class="skill">Step-by-step explanations</span>
+    <span class="skill">Exam preparation</span>
+    <span class="skill">Homework support</span>
+    <span class="skill">Practice questions</span>
+    <span class="skill">Concept building</span>
+    <span class="skill">Patient & friendly teaching</span>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="card">
+    <h3>Intermediate / Grade 12</h3>
+    <p>Currently completing higher secondary education.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let’s Learn Together</h2>
+  <p>Interested in tutoring? Get in touch through the contact details below.</p>
+  <div style="margin-top:22px;font-size:18px;line-height:2">
+    <div>📧 <strong>Email:</strong> ismailhoonyaar@gmail.com</div>
+    <div>📱 <strong>Phone / WhatsApp:</strong> +92 332 5556401</div>
+  </div>
+</section>
+
+<footer>© 2026 Ismail · Tutor Portfolio</footer>
+</body>
+</html>
